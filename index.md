@@ -19,8 +19,8 @@
          <p style="text-align: justify"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Carton detection is an important technique in the automatic logistics system and can be applied to many applications such as the stacking and unstacking of cartons, the unloading of cartons in the containers. However, there is no public large-scale carton dataset for the research community to train and evaluate the carton detection models up to now, which hinders the development of carton detection. In this paper, we present a large-scale carton dataset named Stacked Carton Dataset(SCD) with the goal of advancing the state-of-the-art in carton detection. Images are collected from the internet and several warehourses, and objects are labeled using per-instance segmentation for precise localization. There are totally 250,000 instance masks from 16,136 images. In addition, we design a carton detector based on RetinaNet by embedding Boundary Guided Supervision module(BGS) and Offset Prediction between Classification and Localization module(OPCL). OPCL alleviates the imbalance problem between classification and localization quality which boosts AP by 3.1% ~ 4.7% on SCD while BGS guides the detector to pay more attention to boundary information of cartons and decouple repeated carton textures. To demonstrate the generalization of OPCL to other datasets, we conduct extensive experiments on MS COCO and PASCAL VOC. The improvements of AP on MS COCO and PASCAL VOC are 1.8% ~ 2.2% and 3.4% ~ 4.3% respectively.</em></p>
          <h2 id="2-paper"><a class="anchor" name="2-paper" href="#2-paper"><span class="octicon octicon-link"></span></a>2. Paper</h2>
          <div align="center">
-            <a href="https://https://arxiv.org/abs/2102.12808">
-            <img  src="images/SCD.png" height="200" width="170" />
+            <a href="https://arxiv.org/abs/2102.12808">
+            <img  src="images/SCD.png" height="220" width="170" />
             </a>   
             <p><a href="https://arxiv.org/abs/2102.12808"><strong>Paper on arXiv =&gt; "SCD: A Stacked Carton Dataset for Detection and Segmentation"</strong></a></p>
          </div>
@@ -43,6 +43,7 @@
          <p>*<strong>Notice</strong>: If downloading from Kaggle is not accessable, you can alternatively download the dataset using <a href="https://pan.baidu.com/s/1vrrLaSpJe5JxT3zhYfOaog">Baidu Drive</a>.</p>
          <h4 id="31-dataset-license"><a class="anchor" name="31-dataset-license" href="#31-dataset-license"><span class="octicon octicon-link"></span></a>3.1 Dataset license:</h4>
          <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt=""></a><br>CC BY-NC-SA 4.0</p>
+         <h4 id="32-Image-examples"><a class="anchor" name="32-Image-examples" href="#32-Image-examples"><span class="octicon octicon-link"></span></a>3.2 Dataset license:</h4>
          <h4 id="32-overview-infomation-of-the-rpc-dataset"><a class="anchor" name="32-overview-infomation-of-the-rpc-dataset" href="#32-overview-infomation-of-the-rpc-dataset"><span class="octicon octicon-link"></span></a>3.2 Overview infomation of the RPC dataset</h4>
          <div align="center">
             <table>
