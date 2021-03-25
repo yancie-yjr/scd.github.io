@@ -37,51 +37,50 @@
             <table>
                <thead>
                   <tr>
-                     <th><em>Split</em></th>
-                     <th align="right"><em># images</em></th>
-                     <th align="right"><em># objects</em></th>
-                     <th align="right"><em># objects/image</em></th>
-                     <th align="right"><em># categories/image</em></th>
+                     <th><em>Dataset</em></th>
+                     <th align="right"><em>Images</em></th>
+                     <th align="right"><em>Labels</em></th>
+                     <th align="right"><em>All/Occlusion</em></th>
+                     <th align="right"><em>Inner/Outer</em></th>
+                     <th align="right"><em>Total Instances</em></th>
+                     <th align="right"><em>Average Instances</em></th>
                   </tr>
                </thead>
                <tbody>
                   <tr>
-                     <td>Training set (Exemplar images)</td>
-                     <td align="right">53,739</td>
-                     <td align="right">53,739</td>
-                     <td align="right">1</td>
-                     <td align="right">1</td>
+                     <td>LSCD</td>
+                     <td>7,735</td>
+                     <td>4&1</td>
+                     <td>√</td>
+                     <td>√</td>
+                     <td>81,870</td>
+                     <td>10.58</td>
                   </tr>
                   <tr>
-                     <td>Validation set (Checkout images)</td>
-                     <td align="right">6,000</td>
-                     <td align="right">73,602</td>
-                     <td align="right">12.27</td>
-                     <td align="right">6.33</td>
-                  </tr>
-                  <tr>
-                     <td>Test set (Checkout images)</td>
-                     <td align="right">24,000</td>
-                     <td align="right">294,333</td>
-                     <td align="right">12.26</td>
-                     <td align="right">6.31</td>
+                     <td>OSCD</td>
+                     <td>8.401</td>
+                     <td>1</td>
+                     <td>×</td>
+                     <td>×</td>
+                     <td>168,748</td>
+                     <td>20.09</td>
                   </tr>
                </tbody>
             </table>
          </div>
         <h4 id="35-Data-classification-and-download-link"><a class="anchor" name="35-Data-classification-and-download-link" href="#35-Data-classification-and-download-link"><span class="octicon octicon-link"></span></a>3.5 Data classification and download link:</h4>
             <p>OSCD:</p>
-            <p>(1) <a href="https://pan.baidu.com/s/1p2KOYFhLWFfbmMBLpxbVMA"><strong>OSCD =&gt; "Images and COCO-style labels"</strong></a>
+            <p>  (1) <a href="https://pan.baidu.com/s/1p2KOYFhLWFfbmMBLpxbVMA"><strong>OSCD =&gt; "Images and COCO-style labels"</strong></a>
                (password: 0000)
             </p>
             <p>LSCD:</p>
-            <p>(1) <a href="https://pan.baidu.com/s/1dmk6mFPEKckkiaNg9qdN3g"><strong>LSCD =&gt; "Images and LabelMe-style labels"</strong></a>
+            <p>  (1) <a href="https://pan.baidu.com/s/1dmk6mFPEKckkiaNg9qdN3g"><strong>LSCD =&gt; "Images and LabelMe-style labels"</strong></a>
                (password: 0000)
             </p>
-            <p>(2) <a href="https://pan.baidu.com/s/1J3e1PIWsf0LBnyWu9OmUsQ"><strong>LSCD =&gt; "Images and COCO-style labels(containing Carton-inner-all, Carton-inner-occlusion, Carton-outer-all and Carton-outer-occlusion)"</strong></a>
+            <p>  (2) <a href="https://pan.baidu.com/s/1J3e1PIWsf0LBnyWu9OmUsQ"><strong>LSCD =&gt; "Images and COCO-style labels(containing Carton-inner-all, Carton-inner-occlusion, Carton-outer-all and Carton-outer-occlusion)"</strong></a>
                (password: 0000)
             </p>
-            <p>(3) <a href="https://pan.baidu.com/s/1WV_5yxIiPWhs6L2gszzekg"><strong>LSCD =&gt; "Images and COCO-style labels(only containing carton)"</strong></a>
+            <p>  (3) <a href="https://pan.baidu.com/s/1WV_5yxIiPWhs6L2gszzekg"><strong>LSCD =&gt; "Images and COCO-style labels(only containing carton)"</strong></a>
                (password: 0000)
             </p>
             <p>*<strong>Notice</strong>: You should download the dataset using Baidu Drive.</p>
