@@ -10,8 +10,8 @@
          <link rel="shortcut icon" href="./favicon.ico">
          <div align="center">
             <h1 id="SCD: A Stacked Carton Dataset for Detection and Segmentation">SCD: A Stacked Carton Dataset for Detection and Segmentation</h1>
-            <p><strong><a href="https://scholar.google.com/citations?user=8Of_NYQAAAAJ&hl=zh-CN">Jinrong Yang<sup>1*</sup></a> &nbsp;&nbsp;&nbsp; Quan Cui<sup>1,2</sup> &nbsp;&nbsp;&nbsp; <a href="https://github.com/DIYer22">Lei Yang<sup>1</sup></a>&nbsp;&nbsp;&nbsp; Peng Wang<sup>3</sup> &nbsp;&nbsp;&nbsp; Lingqiao Liu<sup>3</sup></strong></p>
-            <p><sup>1</sup>Megvii Research Nanjing, Megvii Technology Ltd., Nanjing, China<br><sup>2</sup>Graduate School of IPS, Waseda University, Fukuoka, Japan<br><sup>3</sup>School of Computer Science, The University of Adelaide, Adelaide, Australia</p>
+            <p><strong><a href="https://scholar.google.com/citations?user=8Of_NYQAAAAJ&hl=zh-CN">Jinrong Yang<sup>1*</sup></a> &nbsp;&nbsp;&nbsp; Shengkai Wu<sup>1,2</sup> &nbsp;&nbsp;&nbsp; <a href="https://github.com/DIYer22">Lijun Gou<sup>1</sup></a>&nbsp;&nbsp;&nbsp; Hangcheng Yu<sup>3</sup> &nbsp;&nbsp;&nbsp; Chenxi Lin<sup>3</sup> &nbsp;&nbsp;&nbsp; Jiazhuo Wang<sup>3</sup> &nbsp;&nbsp;&nbsp; Minxuan Li<sup>3</sup> &nbsp;&nbsp;&nbsp; Xiaoping Li<sup>3</sup></strong></p>
+            <p><sup>1</sup>State Key Laboratory of Digital Manufacturing Equipment and Technology, Huazhong University of Science and Technology, China.<br><sup>2</sup>Faculty of Arts and Science, Queen’s University, Canada</p>
             <hr>
             <h3 id="abstract--paper--dataset--baselines--leaderboard--rpc-tool"><a href="#1-abstract">Abstract</a> | <a href="#2-paper">Paper</a> | <a href="#3-our-rpc-dataset">Dataset</a> | <a href="#4-proposed-baseline-method-on-the-rpc-dataset">Baselines</a> | <a href="#5-Leaderboard">Leaderboard</a> | <a href="#6-rpc-tool">RPC-tool</a></h3>
          </div>
