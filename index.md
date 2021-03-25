@@ -73,13 +73,14 @@
          <p><a href="https://pan.baidu.com/s/1p2KOYFhLWFfbmMBLpxbVMA"><strong>OSCD =&gt; "OSCD: Images and COCO-style labels"</strong></a>
                (password: 0000)
             </p>
-            <p><a href="https://pan.baidu.com/s/1dmk6mFPEKckkiaNg9qdN3g"><strong>LSCD =&gt; "OSCD: Images and LabelMe-style labels"</strong></a>
+            <p> LSCD: </p>
+            <p> (1)<a href="https://pan.baidu.com/s/1dmk6mFPEKckkiaNg9qdN3g"><strong>LSCD =&gt; "Images and LabelMe-style labels"</strong></a>
                (password: 0000)
             </p>
-            <p><a href="https://pan.baidu.com/s/1J3e1PIWsf0LBnyWu9OmUsQ"><strong>LSCD =&gt; "OSCD: Images and COCO-style labels(containing Carton-inner-all, Carton-inner-occlusion, Carton-outer-all and Carton-outer-occlusion)"</strong></a>
+            <p> (2) <a href="https://pan.baidu.com/s/1J3e1PIWsf0LBnyWu9OmUsQ"><strong>LSCD =&gt; "Images and COCO-style labels(containing Carton-inner-all, Carton-inner-occlusion, Carton-outer-all and Carton-outer-occlusion)"</strong></a>
                (password: 0000)
             </p>
-            <p><a href="https://pan.baidu.com/s/1WV_5yxIiPWhs6L2gszzekg"><strong>LSCD =&gt; "OSCD: Images and COCO-style labels(only containing carton)"</strong></a>
+            <p>（3）<a href="https://pan.baidu.com/s/1WV_5yxIiPWhs6L2gszzekg"><strong>LSCD =&gt; "Images and COCO-style labels(only containing carton)"</strong></a>
                (password: 0000)
             </p>
             <p>*<strong>Notice</strong>: You should download the dataset using Baidu Drive.</p>
