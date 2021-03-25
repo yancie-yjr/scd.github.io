@@ -70,17 +70,18 @@
             </table>
          </div>
         <h4 id="35-Data-classification-and-download-link"><a class="anchor" name="35-Data-classification-and-download-link" href="#35-Data-classification-and-download-link"><span class="octicon octicon-link"></span></a>3.5 Data classification and download link:</h4>
-         <p><a href="https://pan.baidu.com/s/1p2KOYFhLWFfbmMBLpxbVMA"><strong>OSCD =&gt; "OSCD: Images and COCO-style labels"</strong></a>
+            <p>OSCD:</p>
+            <p>(1) a href="https://pan.baidu.com/s/1p2KOYFhLWFfbmMBLpxbVMA"><strong>OSCD =&gt; "Images and COCO-style labels"</strong></a>
                (password: 0000)
             </p>
-            <p> LSCD: </p>
-            <p> (1)<a href="https://pan.baidu.com/s/1dmk6mFPEKckkiaNg9qdN3g"><strong>LSCD =&gt; "Images and LabelMe-style labels"</strong></a>
+            <p>LSCD:</p>
+            <p>(1) <a href="https://pan.baidu.com/s/1dmk6mFPEKckkiaNg9qdN3g"><strong>LSCD =&gt; "Images and LabelMe-style labels"</strong></a>
                (password: 0000)
             </p>
-            <p> (2) <a href="https://pan.baidu.com/s/1J3e1PIWsf0LBnyWu9OmUsQ"><strong>LSCD =&gt; "Images and COCO-style labels(containing Carton-inner-all, Carton-inner-occlusion, Carton-outer-all and Carton-outer-occlusion)"</strong></a>
+            <p>(2) <a href="https://pan.baidu.com/s/1J3e1PIWsf0LBnyWu9OmUsQ"><strong>LSCD =&gt; "Images and COCO-style labels(containing Carton-inner-all, Carton-inner-occlusion, Carton-outer-all and Carton-outer-occlusion)"</strong></a>
                (password: 0000)
             </p>
-            <p>（3）<a href="https://pan.baidu.com/s/1WV_5yxIiPWhs6L2gszzekg"><strong>LSCD =&gt; "Images and COCO-style labels(only containing carton)"</strong></a>
+            <p>(3) <a href="https://pan.baidu.com/s/1WV_5yxIiPWhs6L2gszzekg"><strong>LSCD =&gt; "Images and COCO-style labels(only containing carton)"</strong></a>
                (password: 0000)
             </p>
             <p>*<strong>Notice</strong>: You should download the dataset using Baidu Drive.</p>
