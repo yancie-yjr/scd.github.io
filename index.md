@@ -4,7 +4,6 @@
       <link rel="stylesheet" type="text/css" href="./github.css" id="_theme">
       <div id="_html" class="markdown-body">
          <meta charset="UTF-8">
-         <title>SCD Dataset </title>
          <meta name="description" content="SCD: A Stacked Carton Dataset for Detection and Segmentation">
          <meta name="keywords" content="rpc dataset, rpctool, retail, product detection">
          <link rel="shortcut icon" href="./favicon.ico">
@@ -28,12 +27,12 @@
          </div>
          <h4 id="31-dataset-license"><a class="anchor" name="31-dataset-license" href="#31-dataset-license"><span class="octicon octicon-link"></span></a>3.1 Dataset license</h4>
          <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt=""></a><br>CC BY-NC-SA 4.0</p>
-         <h4 id="32-Image-examples"><a class="anchor" name="32-Image-examples" href="#32-Image-examples"><span class="octicon octicon-link"></span></a>3.2 Image examples:</h4>
+         <h4 id="32-Image-examples"><a class="anchor" name="32-Image-examples" href="#32-Image-examples"><span class="octicon octicon-link"></span></a>3.2 Image examples</h4>
          <img  src="images/scd_carton.jpg">
          <h4 id="33-Annotations"><a class="anchor" name="33-Annotations" href="#33-Annotations"><span class="octicon octicon-link"></span></a>3.3 Annotations</h4>
          <img  src="images/annotation.jpg">  
          <p>Example of instance annotation in SCD. The first line represents the style of four labels with respect to LSCD while the second line illustrates the style of one label in OSCD. In terms of first line, blue, green, red and yellow represent Carton-inner-all, Carton-innerocclusion, Carton-outer-al and Carton-outer-occlusion respectively.<p/>
-         <h4 id="34-overview-infomation-of-SCD"><a class="anchor" name="34-overview-infomation-of-SCD" href="#34-overview-infomation-of-SCD"><span class="octicon octicon-link"></span></a>3.4 Overview infomation of SCD dataset</h4>
+         <h4 id="34-overview-infomation-of-SCD"><a class="anchor" name="34-overview-infomation-of-SCD" href="#34-overview-infomation-of-SCD"><span class="octicon octicon-link"></span></a>3.4 Overview infomation of SCD</h4>
          <div align="center">
             <table>
                <thead>
@@ -88,17 +87,17 @@
                (password: XXXX)
             </p>
             <p>*<strong>Notice</strong>: You should download the dataset using Baidu Drive. You can email us to request data and clarify your purpose, we will give you the password within 3 days.(yangjinrong@hust.edu.cn)</p>
-         <h4 id="36-Dataset-Statistics"><a class="anchor" name="32-Image-examples" href="#36-Dataset-Statistics"><span class="octicon octicon-link"></span></a>3.6 Dataset Statistics</h4>
+         <h4 id="36-Dataset-Statistics"><a class="anchor" name="32-Image-examples" href="#36-Dataset-Statistics"><span class="octicon octicon-link"></span></a>3.6 Dataset statistics</h4>
          <div align="center">
-         <img  src="images/fourclass_images.png" height="200" width="350" />
-         <img  src="images/fourclass_instances.png" height="200" width="350" />
+         <img  src="images/fourclass_images.png" height="250" width="450" />
+         <img  src="images/fourclass_instances.png" height="250" width="450" />
          <img  src="images/Statistics.png">
          </div>
          <p>The first line represents the statistical distribution of LSCD while the second line represents the statistical distribution of OSCD. The chart calculates the width, height, aspect ratio, pixel area and the number of objects in each image from left to right. Noting that the width, height and area of instance are all normalized by the width and height of corresponding image. Log function is adopted to normalize aspect ratio.<p/>
          <h5 id="4-Proposed-baseline-method-on-SCD"><a class="anchor" name="4-proposed-baseline-method-on-SCD" href="#4-Proposed-baseline-method-on-SCD"><span class="octicon octicon-link"></span></a>4. Proposed baseline method on SCD</h5>
          <h5 id="41-RetinaNet-with-OPCL-and-BGS"><a class="anchor" name="41-RetinaNet-with-OPCL-and-BGS" href="#41-RetinaNet-with-OPCL-and-BGS"><span class="octicon octicon-link"></span></a>4.1 RetinaNet with OPCL and BGS</h5>
          <img  src="images/Net.png">
-         <h5 id="42-baseline"><a class="anchor" name="42-baseline" href="#42-baseline"><span class="octicon octicon-link"></span></a>4.2 baseline</h5>
+         <h5 id="42-baseline"><a class="anchor" name="42-baseline" href="#42-baseline"><span class="octicon octicon-link"></span></a>4.2 Baseline</h5>
                   <div align="center">
             <table>
                <thead>
