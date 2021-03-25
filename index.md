@@ -10,13 +10,13 @@
          <link rel="shortcut icon" href="./favicon.ico">
          <div align="center">
             <h1 id="SCD: A Stacked Carton Dataset for Detection and Segmentation">SCD: A Stacked Carton Dataset for Detection and Segmentation</h1>
-            <p><strong><a href="https://scholar.google.com/citations?user=8Of_NYQAAAAJ&hl=zh-CN">Jinrong Yang<sup>1</sup></a> &nbsp;&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=oWHBHDEAAAAJ&hl=zh-CN">Shengkai Wu<sup>1</sup> &nbsp;&nbsp;&nbsp; Lijun Gou<sup>1</sup>&nbsp;&nbsp;&nbsp; Hangcheng Yu<sup>1</sup> &nbsp;&nbsp;&nbsp; Chenxi Lin<sup>1</sup> &nbsp;&nbsp;&nbsp; Jiazhuo Wang<sup>1</sup> &nbsp;&nbsp;&nbsp; Minxuan Li<sup>2</sup> &nbsp;&nbsp;&nbsp; Xiaoping Li<sup>1</sup></strong></p>
+            <p><strong><a href="https://scholar.google.com/citations?user=8Of_NYQAAAAJ&hl=zh-CN">Jinrong Yang<sup>1</sup></a> &nbsp;&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=oWHBHDEAAAAJ&hl=zh-CN">Shengkai Wu<sup>1</sup></a> &nbsp;&nbsp;&nbsp; Lijun Gou<sup>1</sup>&nbsp;&nbsp;&nbsp; Hangcheng Yu<sup>1</sup> &nbsp;&nbsp;&nbsp; Chenxi Lin<sup>1</sup> &nbsp;&nbsp;&nbsp; Jiazhuo Wang<sup>1</sup> &nbsp;&nbsp;&nbsp; Minxuan Li<sup>2</sup> &nbsp;&nbsp;&nbsp; Xiaoping Li<sup>1</sup></strong></p>
             <p><sup>1</sup>State Key Laboratory of Digital Manufacturing Equipment and Technology, Huazhong University of Science and Technology, China.<br><sup>2</sup>Faculty of Arts and Science, Queen’s University, Canada</p>
             <hr>
             <h3 id="abstract--paper--dataset--baselines--leaderboard--rpc-tool"><a href="#1-abstract">Abstract</a> | <a href="#2-paper">Paper</a> | <a href="#3-our-rpc-dataset">Dataset</a> | <a href="#4-proposed-baseline-method-on-the-rpc-dataset">Baselines</a> | <a href="#5-Leaderboard">Leaderboard</a> | <a href="#6-rpc-tool">RPC-tool</a></h3>
          </div>
          <h2 id="1-abstract"><a class="anchor" name="1-abstract" href="#1-abstract"><span class="octicon octicon-link"></span></a>1. Abstract</h2>
-         <p style="text-align: justify"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carton detection is an important technique in the automatic logistics system and can be applied to many applications such as the stacking and unstacking of cartons, the unloading of cartons in the containers. However, there is no public large-scale carton dataset for the research community to train and evaluate the carton detection models up to now, which hinders the development of carton detection. In this paper, we present a large-scale carton dataset named Stacked Carton Dataset(SCD) with the goal of advancing the state-of-the-art in carton detection. Images are collected from the internet and several warehourses, and objects are labeled using per-instance segmentation for precise localization. There are totally 250,000 instance masks from 16,136 images. In addition, we design a carton detector based on RetinaNet by embedding Boundary Guided Supervision module(BGS) and Offset Prediction between Classification and Localization module(OPCL). OPCL alleviates the imbalance problem between classification and localization quality which boosts AP by 3.1% ~ 4.7% on SCD while BGS guides the detector to pay more attention to boundary information of cartons and decouple repeated carton textures. To demonstrate the generalization of OPCL to other datasets, we conduct extensive experiments on MS COCO and PASCAL VOC. The improvements of AP on MS COCO and PASCAL VOC are 1.8% ~ 2.2% and 3.4% ~ 4.3% respectively.</em></p>
+         <p style="text-align: justify"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Carton detection is an important technique in the automatic logistics system and can be applied to many applications such as the stacking and unstacking of cartons, the unloading of cartons in the containers. However, there is no public large-scale carton dataset for the research community to train and evaluate the carton detection models up to now, which hinders the development of carton detection. In this paper, we present a large-scale carton dataset named Stacked Carton Dataset(SCD) with the goal of advancing the state-of-the-art in carton detection. Images are collected from the internet and several warehourses, and objects are labeled using per-instance segmentation for precise localization. There are totally 250,000 instance masks from 16,136 images. In addition, we design a carton detector based on RetinaNet by embedding Boundary Guided Supervision module(BGS) and Offset Prediction between Classification and Localization module(OPCL). OPCL alleviates the imbalance problem between classification and localization quality which boosts AP by 3.1% ~ 4.7% on SCD while BGS guides the detector to pay more attention to boundary information of cartons and decouple repeated carton textures. To demonstrate the generalization of OPCL to other datasets, we conduct extensive experiments on MS COCO and PASCAL VOC. The improvements of AP on MS COCO and PASCAL VOC are 1.8% ~ 2.2% and 3.4% ~ 4.3% respectively.</em></p>
          <h2 id="2-paper"><a class="anchor" name="2-paper" href="#2-paper"><span class="octicon octicon-link"></span></a>2. Paper</h2>
          <div align="center">
             <a href="https://https://arxiv.org/abs/2102.12808">
@@ -24,11 +24,20 @@
             </a>   
             <p><a href="https://arxiv.org/abs/2102.12808"><strong>Paper on arXiv =&gt; "SCD: A Stacked Carton Dataset for Detection and Segmentation"</strong></a></p>
          </div>
-         <h2 id="3-our-rpc-dataset"><a class="anchor" name="3-our-rpc-dataset" href="#3-our-rpc-dataset"><span class="octicon octicon-link"></span></a>3. Our RPC dataset</h2>
+         <h2 id="3-SCD"><a class="anchor" name="3-SCD" href="#3-SCD"><span class="octicon octicon-link"></span></a>3. SCD</h2>
          <div align="center">
             <p><a href="https://www.kaggle.com/diyer22/retail-product-checkout-dataset"><img src="imgs/rpc-dataset.png" alt=""></a>     </p>
-            <p><a href="https://www.kaggle.com/diyer22/retail-product-checkout-dataset"><strong>Dataset on Kaggle =&gt; "The Retail Product Checkout dataset"</strong></a>
-               (15 GB)
+            <p><a href="https://pan.baidu.com/s/1p2KOYFhLWFfbmMBLpxbVMA"><strong>OSCD =&gt; "OSCD: Images and COCO-style labels"</strong></a>
+               (password: 0000)
+            </p>
+            <p><a href="https://pan.baidu.com/s/1dmk6mFPEKckkiaNg9qdN3g"><strong>LSCD =&gt; "OSCD: Images and LabelMe-style labels"</strong></a>
+               (password: 0000)
+            </p>
+            <p><a href="https://pan.baidu.com/s/1J3e1PIWsf0LBnyWu9OmUsQ"><strong>LSCD =&gt; "OSCD: Images and COCO-style labels(containing Carton-inner-all, Carton-inner-occlusion, Carton-outer-all and Carton-outer-occlusion)"</strong></a>
+               (password: 0000)
+            </p>
+            <p><a href="https://pan.baidu.com/s/1WV_5yxIiPWhs6L2gszzekg"><strong>LSCD =&gt; "OSCD: Images and COCO-style labels(only containing carton)"</strong></a>
+               (password: 0000)
             </p>
          </div>
          <p>*<strong>Notice</strong>: If downloading from Kaggle is not accessable, you can alternatively download the dataset using <a href="https://pan.baidu.com/s/1vrrLaSpJe5JxT3zhYfOaog">Baidu Drive</a>.</p>
