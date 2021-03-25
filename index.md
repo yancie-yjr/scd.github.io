@@ -32,7 +32,7 @@
          <img  src="images/scd_carton.jpg">
          <h4 id="33-Annotations"><a class="anchor" name="33-Annotations" href="#33-Annotations"><span class="octicon octicon-link"></span></a>3.3 Annotations:</h4>
          <img  src="images/annotation.jpg">  
-         <p>Example of instance annotation in SCD. The first line represents the style of four labels with respect to LSCD while the second line illustrates the style of one label in OSCD. In terms of first line, blue, green, red and yellow represent Carton-inner-all, Carton-innerocclusion, <font color="#FF0000">Carton-outer-all</font> and Carton-outer-occlusion respectively.<p/>
+         <p>Example of instance annotation in SCD. The first line represents the style of four labels with respect to LSCD while the second line illustrates the style of one label in OSCD. In terms of first line, blue, green, red and yellow represent Carton-inner-all, Carton-innerocclusion, Carton-outer-al and Carton-outer-occlusion respectively.<p/>
          <h4 id="34-overview-infomation-of-SCD"><a class="anchor" name="34-overview-infomation-of-SCD" href="#34-overview-infomation-of-SCD"><span class="octicon octicon-link"></span></a>3.4 Overview infomation of SCD dataset</h4>
          <div align="center">
             <table>
@@ -88,61 +88,17 @@
                (password: 0000)
             </p>
             <p>*<strong>Notice</strong>: You should download the dataset using Baidu Drive.</p>
-         <h4 id="33-collection-equipment-for-single-product-images-training-set"><a class="anchor" name="33-collection-equipment-for-single-product-images-training-set" href="#33-collection-equipment-for-single-product-images-training-set"><span class="octicon octicon-link"></span></a>3.3 Collection equipment for single product images (training set)</h4>
-         <div align="center">
-            <a href="https://www.kaggle.com/diyer22/retail-product-checkout-dataset#retail_product_checkout.zip">
-            <img style="width:700px" src="imgs/single.png">
-            </a>   
-         </div>
-         <h4 id="34-different-clutter-levels-for-checkout-images-valtest-sets"><a class="anchor" name="34-different-clutter-levels-for-checkout-images-valtest-sets" href="#34-different-clutter-levels-for-checkout-images-valtest-sets"><span class="octicon octicon-link"></span></a>3.4 Different clutter levels for checkout images (val/test sets)</h4>
-         <div align="center">
-            <a href="https://www.kaggle.com/diyer22/retail-product-checkout-dataset#retail_product_checkout.zip">
-            <img style="width:500px" src="imgs/test.png">
-            </a>   
-         </div>
-         <h4 id="35-detailed-information-of-valtest-sets-for-different-clutters"><a class="anchor" name="35-detailed-information-of-valtest-sets-for-different-clutters" href="#35-detailed-information-of-valtest-sets-for-different-clutters"><span class="octicon octicon-link"></span></a>3.5 Detailed information of val+test sets for different clutters</h4>
-         <div align="center">
-            <table>
-               <thead>
-                  <tr>
-                     <th><em>Clutter mode</em></th>
-                     <th align="right"><em># images</em></th>
-                     <th align="right"><em># objects</em></th>
-                     <th align="right"><em># objects/image</em></th>
-                     <th align="right"><em># categories/image</em></th>
-                  </tr>
-               </thead>
-               <tbody>
-                  <tr>
-                     <td>Easy</td>
-                     <td align="right">10,000</td>
-                     <td align="right">71,496</td>
-                     <td align="right">7.15</td>
-                     <td align="right">3.81</td>
-                  </tr>
-                  <tr>
-                     <td>Medium</td>
-                     <td align="right">10,000</td>
-                     <td align="right">122,961</td>
-                     <td align="right">12.30</td>
-                     <td align="right">6.27</td>
-                  </tr>
-                  <tr>
-                     <td>Hard</td>
-                     <td align="right">10,000</td>
-                     <td align="right">173,478</td>
-                     <td align="right">17.35</td>
-                     <td align="right">8.87</td>
-                  </tr>
-               </tbody>
-            </table>
-         </div>
-         <h2 id="4-proposed-baseline-method-on-the-rpc-dataset"><a class="anchor" name="4-proposed-baseline-method-on-the-rpc-dataset" href="#4-proposed-baseline-method-on-the-rpc-dataset"><span class="octicon octicon-link"></span></a>4. Proposed baseline method on the RPC dataset</h2>
-         <h4 id="41-pipeline-of-our-synrender-method"><a class="anchor" name="41-pipeline-of-our-synrender-method" href="#41-pipeline-of-our-synrender-method"><span class="octicon octicon-link"></span></a>4.1 Pipeline of our <em>Syn+Render</em> method</h4>
-         <div align="center">
-            <img style="width:700px" src="imgs/pipeline.png">
-         </div>
-         <h4 id="42-experimental-results"><a class="anchor" name="42-experimental-results" href="#42-experimental-results"><span class="octicon octicon-link"></span></a>4.2 Experimental results</h4>
+         <h4 id="36-Dataset-Statistics"><a class="anchor" name="32-Image-examples" href="#36-Dataset-Statistics"><span class="octicon octicon-link"></span></a>3.6 Dataset Statistics</h4>
+         <img  src="images/fourclass_images.png">
+         <img  src="images/fourclass_instances.png">
+         <img  src="images/Statistics.png">
+         <p>The first line represents the statistical distribution of LSCD while the second line represents the statistical distribution of OSCD. The chart calculates the width, height, aspect ratio, pixel area and the number of objects in each image from left to right. Noting that the width, height and area of instance are all normalized by the width and height of corresponding image. Log function is adopted to normalize aspect ratio.<p/>
+         <h5 id="4-Proposed-baseline-method-on-SCD"><a class="anchor" name="4-proposed-baseline-method-on-SCD" href="#4-Proposed-baseline-method-on-SCD"><span class="octicon octicon-link"></span></a>4. Proposed baseline method on SCD</h5>
+         <h5 id="41-RetinaNet-with-OPCL-and-BGS"><a class="anchor" name="41-RetinaNet-with-OPCL-and-BGS" href="#41-RetinaNet-with-OPCL-and-BGS"><span class="octicon octicon-link"></span></a>4.1 RetinaNet with OPCL and BGS <em>Syn+Render</em> method</h5>
+         <img  src="images/Net.png">
+         <h4 id="42-baseline"><a class="anchor" name="42-baseline" href="#42-baseline"><span class="octicon octicon-link"></span></a>4.2 baseline</h4>
+      
+      
          <div align="center">
             <img style="width:700px" src="imgs/result.png">
          </div>
