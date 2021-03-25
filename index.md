@@ -13,7 +13,7 @@
             <p><strong><a href="https://scholar.google.com/citations?user=8Of_NYQAAAAJ&hl=zh-CN">Jinrong Yang<sup>1</sup></a> &nbsp;&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=oWHBHDEAAAAJ&hl=zh-CN">Shengkai Wu<sup>1</sup></a> &nbsp;&nbsp;&nbsp; Lijun Gou<sup>1</sup>&nbsp;&nbsp;&nbsp; Hangcheng Yu<sup>1</sup> &nbsp;&nbsp;&nbsp; Chenxi Lin<sup>1</sup> &nbsp;&nbsp;&nbsp; Jiazhuo Wang<sup>1</sup> &nbsp;&nbsp;&nbsp; Minxuan Li<sup>2</sup> &nbsp;&nbsp;&nbsp; Xiaoping Li<sup>1</sup></strong></p>
             <p><sup>1</sup>State Key Laboratory of Digital Manufacturing Equipment and Technology, Huazhong University of Science and Technology, China.<br><sup>2</sup>Faculty of Arts and Science, Queen’s University, Canada</p>
             <hr>
-            <h3 id="abstract--paper--dataset--baselines--leaderboard--rpc-tool"><a href="#1-abstract">Abstract</a> | <a href="#2-paper">Paper</a> | <a href="#3-our-rpc-dataset">Dataset</a> | <a href="#4-proposed-baseline-method-on-the-rpc-dataset">Baselines</a> | <a href="#5-Leaderboard">Leaderboard</a> | <a href="#6-rpc-tool">RPC-tool</a></h3>
+            <h3 id="abstract--paper--SCD--Proposed-baseline-method-on-SCD--leaderboard--attn"><a href="#1-abstract">Abstract</a> | <a href="#2-paper">Paper</a> | <a href="#3-SCD">SCD</a> | <a href="#4-Proposed-baseline-method-on-SCD">Network</a> | <a href="#5-leaderboard">Leaderboard</a> | <a href="#6-attn">Attention</a></h3>
          </div>
          <h2 id="1-abstract"><a class="anchor" name="1-abstract" href="#1-abstract"><span class="octicon octicon-link"></span></a>1. Abstract</h2>
          <p style="text-align: justify"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Carton detection is an important technique in the automatic logistics system and can be applied to many applications such as the stacking and unstacking of cartons, the unloading of cartons in the containers. However, there is no public large-scale carton dataset for the research community to train and evaluate the carton detection models up to now, which hinders the development of carton detection. In this paper, we present a large-scale carton dataset named Stacked Carton Dataset(SCD) with the goal of advancing the state-of-the-art in carton detection. Images are collected from the internet and several warehourses, and objects are labeled using per-instance segmentation for precise localization. There are totally 250,000 instance masks from 16,136 images. In addition, we design a carton detector based on RetinaNet by embedding Boundary Guided Supervision module(BGS) and Offset Prediction between Classification and Localization module(OPCL). OPCL alleviates the imbalance problem between classification and localization quality which boosts AP by 3.1% ~ 4.7% on SCD while BGS guides the detector to pay more attention to boundary information of cartons and decouple repeated carton textures. To demonstrate the generalization of OPCL to other datasets, we conduct extensive experiments on MS COCO and PASCAL VOC. The improvements of AP on MS COCO and PASCAL VOC are 1.8% ~ 2.2% and 3.4% ~ 4.3% respectively.</em></p>
@@ -180,21 +180,10 @@
          <h2 id="5-leaderboard"><a class="anchor" name="5-leaderboard" href="#5-leaderboard"><span class="octicon octicon-link"></span></a>5. Leaderboard</h2>
          <div style="text-align: justify">
             <p><a href="https://github.com/yancie-yjr/scd.github.io/tree/main/SCD-Leaderboard"><strong>SCD-Leaderboard</strong></a></p>
-            <p>If you have been successful in creating a model based on the training set and it performs well on the validation set, we encourage you to run your model on the test set. You can submit your results on the RPC leaderboard by creating a new issue. Your results will be ranked in the leaderboard and to benchmark your approach against that of other machine learners. We are looking forward to your submission. Please click <a href="https://github.com/yancie-yjr/scd.github.io/issues">here</a> to submit.</p>
+            <p>If you have been successful in creating a model based on the training set and it performs well on the validation set, we encourage you to run your model on the test set. You can submit your results on the SCD leaderboard by creating a new issue. Your results will be ranked in the leaderboard and to benchmark your approach against that of other machine learners. We are looking forward to your submission. Please click <a href="https://github.com/yancie-yjr/scd.github.io/issues">here</a> to submit.</p>
          </div>
-         <h2 id="7-attn"><a class="anchor" name="7-attn" href="#7-attn"><span class="octicon octicon-link"></span></a>7. ATTN</h2>
+         <h2 id="6-attn"><a class="anchor" name="6-attn" href="#6-attn"><span class="octicon octicon-link"></span></a>6. ATTN</h2>
          <div style="text-align: justify">
             <p>This dataset are free for academic usage. You can run them at your own risk. For other purposes, please contact the corresponding author Dr. Jinrong Yang (yangjinrong@hust.edu.cn).</p>
-         </div>
-         <!-- Global site tag (gtag.js) - Google Analytics -->
-         <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-133191784-1"></script>
-         <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            
-            gtag('config', 'UA-133191784-1');
-         </script>
-      </div>
    </body>
 </html>
