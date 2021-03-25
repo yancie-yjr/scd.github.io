@@ -26,11 +26,11 @@
          </div>
          <h2 id="3-SCD"><a class="anchor" name="3-SCD" href="#3-SCD"><span class="octicon octicon-link"></span></a>3 SCD</h2>
          </div>
-         <h4 id="31-dataset-license"><a class="anchor" name="31-dataset-license" href="#31-dataset-license"><span class="octicon octicon-link"></span></a>3.1 Dataset license:</h4>
+         <h4 id="31-dataset-license"><a class="anchor" name="31-dataset-license" href="#31-dataset-license"><span class="octicon octicon-link"></span></a>3.1 Dataset license</h4>
          <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt=""></a><br>CC BY-NC-SA 4.0</p>
          <h4 id="32-Image-examples"><a class="anchor" name="32-Image-examples" href="#32-Image-examples"><span class="octicon octicon-link"></span></a>3.2 Image examples:</h4>
          <img  src="images/scd_carton.jpg">
-         <h4 id="33-Annotations"><a class="anchor" name="33-Annotations" href="#33-Annotations"><span class="octicon octicon-link"></span></a>3.3 Annotations:</h4>
+         <h4 id="33-Annotations"><a class="anchor" name="33-Annotations" href="#33-Annotations"><span class="octicon octicon-link"></span></a>3.3 Annotations</h4>
          <img  src="images/annotation.jpg">  
          <p>Example of instance annotation in SCD. The first line represents the style of four labels with respect to LSCD while the second line illustrates the style of one label in OSCD. In terms of first line, blue, green, red and yellow represent Carton-inner-all, Carton-innerocclusion, Carton-outer-al and Carton-outer-occlusion respectively.<p/>
          <h4 id="34-overview-infomation-of-SCD"><a class="anchor" name="34-overview-infomation-of-SCD" href="#34-overview-infomation-of-SCD"><span class="octicon octicon-link"></span></a>3.4 Overview infomation of SCD dataset</h4>
@@ -72,22 +72,22 @@
                </tbody>
             </table>
          </div>
-        <h4 id="35-Data-classification-and-download-link"><a class="anchor" name="35-Data-classification-and-download-link" href="#35-Data-classification-and-download-link"><span class="octicon octicon-link"></span></a>3.5 Data classification and download link:</h4>
+        <h4 id="35-Data-classification-and-download-link"><a class="anchor" name="35-Data-classification-and-download-link" href="#35-Data-classification-and-download-link"><span class="octicon octicon-link"></span></a>3.5 Data classification and download link</h4>
             <p>OSCD:</p>
             <p>  (1) <a href="https://pan.baidu.com/s/1p2KOYFhLWFfbmMBLpxbVMA"><strong>OSCD =&gt; "Images and COCO-style labels"</strong></a>
-               (password: 0000)
+               (password: XXXX)
             </p>
             <p>LSCD:</p>
             <p>  (1) <a href="https://pan.baidu.com/s/1dmk6mFPEKckkiaNg9qdN3g"><strong>LSCD =&gt; "Images and LabelMe-style labels"</strong></a>
-               (password: 0000)
+               (password: XXXX)
             </p>
             <p>  (2) <a href="https://pan.baidu.com/s/1J3e1PIWsf0LBnyWu9OmUsQ"><strong>LSCD =&gt; "Images and COCO-style labels(containing Carton-inner-all, Carton-inner-occlusion, Carton-outer-all and Carton-outer-occlusion)"</strong></a>
-               (password: 0000)
+               (password: XXXX)
             </p>
             <p>  (3) <a href="https://pan.baidu.com/s/1WV_5yxIiPWhs6L2gszzekg"><strong>LSCD =&gt; "Images and COCO-style labels(only containing carton)"</strong></a>
-               (password: 0000)
+               (password: XXXX)
             </p>
-            <p>*<strong>Notice</strong>: You should download the dataset using Baidu Drive.</p>
+            <p>*<strong>Notice</strong>: You should download the dataset using Baidu Drive. You can email us to request data and clarify your purpose, we will give you the password within 3 days.(yangjinrong@hust.edu.cn)</p>
          <h4 id="36-Dataset-Statistics"><a class="anchor" name="32-Image-examples" href="#36-Dataset-Statistics"><span class="octicon octicon-link"></span></a>3.6 Dataset Statistics</h4>
          <div align="center">
          <img  src="images/fourclass_images.png" height="200" width="350" />
