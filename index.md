@@ -25,7 +25,6 @@
             <p><a href="https://arxiv.org/abs/2102.12808"><strong>Paper on arXiv =&gt; "SCD: A Stacked Carton Dataset for Detection and Segmentation"</strong></a></p>
          </div>
          <h2 id="3-SCD"><a class="anchor" name="3-SCD" href="#3-SCD"><span class="octicon octicon-link"></span></a>3. SCD</h2>
-         <div align="center">
             <p><a href="https://www.kaggle.com/diyer22/retail-product-checkout-dataset"><img src="imgs/rpc-dataset.png" alt=""></a>     </p>
             <p><a href="https://pan.baidu.com/s/1p2KOYFhLWFfbmMBLpxbVMA"><strong>OSCD =&gt; "OSCD: Images and COCO-style labels"</strong></a>
                (password: 0000)
