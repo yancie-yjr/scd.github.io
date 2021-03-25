@@ -277,8 +277,9 @@
         <p>Comparison of detection performance between three state-ofthe- art methods on SCD. For the evaluation of LSCD, 1 and 4 labels are all evaluated. LSCD+OSCD means detector are firstly pre-trained in OSCD and then finetuned in LSCD. RetinaNet+ represents GIoU loss is used.<p/>
         <h5 id="43-main-results"><a class="anchor" name="43-main-results" href="#43-main-results"><span class="octicon octicon-link"></span></a>4.3 Main results</h5>
          <div align="center">
-         <img  src="images/main_result.png">
+         <img  src="images/main_result.jpg">
          </div>
+         <p>Main results of RetinaNet with all our proposed modules. ”pretrain” means pretraining identity model on OSCD and fine-tuning on LSCD with the image scale of [600,1000]([800,1333]†). ”1x” means the model is trained for total 12 epochs.<p/>
          <h2 id="5-leaderboard"><a class="anchor" name="5-leaderboard" href="#5-leaderboard"><span class="octicon octicon-link"></span></a>5. Leaderboard</h2>
          <div style="text-align: justify">
             <p><a href="https://github.com/yancie-yjr/scd.github.io/tree/main/SCD-Leaderboard"><strong>SCD-Leaderboard</strong></a></p>
