@@ -31,7 +31,8 @@
          <h4 id="32-Image-examples"><a class="anchor" name="32-Image-examples" href="#32-Image-examples"><span class="octicon octicon-link"></span></a>3.2 Image examples:</h4>
          <img  src="images/scd_carton.jpg">
          <h4 id="33-Annotations"><a class="anchor" name="33-Annotations" href="#33-Annotations"><span class="octicon octicon-link"></span></a>3.3 Annotations:</h4>
-         <img  src="images/annotation.jpg">
+         <img  src="images/annotation.jpg">  
+         <p>Example of instance annotation in SCD. The first line represents the style of four labels with respect to LSCD while the second line illustrates the style of one label in OSCD. In terms of first line, blue, green, red and yellow represent Carton-inner-all, Carton-innerocclusion, Carton-outer-all and Carton-outer-occlusion respectively.<p/>
          <h4 id="34-overview-infomation-of-SCD"><a class="anchor" name="34-overview-infomation-of-SCD" href="#34-overview-infomation-of-SCD"><span class="octicon octicon-link"></span></a>3.4 Overview infomation of SCD dataset</h4>
          <div align="center">
             <table>
