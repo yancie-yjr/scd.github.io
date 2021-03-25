@@ -39,6 +39,7 @@
                   <tr>
                      <th><em>Dataset</em></th>
                      <th align="right"><em>Images</em></th>
+                     <th align="right"><em>Split(training/test set)</em></th>
                      <th align="right"><em>Labels</em></th>
                      <th align="right"><em>All/Occlusion</em></th>
                      <th align="right"><em>Inner/Outer</em></th>
@@ -50,6 +51,7 @@
                   <tr>
                      <td>LSCD</td>
                      <td>7,735</td>
+                     <td>6,735/1,000</td>
                      <td>4&1</td>
                      <td>√</td>
                      <td>√</td>
@@ -58,7 +60,8 @@
                   </tr>
                   <tr>
                      <td>OSCD</td>
-                     <td>8.401</td>
+                     <td>8,401</td>
+                     <td>7,401/1,000</td>
                      <td>1</td>
                      <td>×</td>
                      <td>×</td>
