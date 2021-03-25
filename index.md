@@ -24,7 +24,7 @@
             </a>   
             <p><a href="https://arxiv.org/abs/2102.12808"><strong>Paper on arXiv =&gt; "SCD: A Stacked Carton Dataset for Detection and Segmentation"</strong></a></p>
          </div>
-         <h2 id="3-SCD"><a class="anchor" name="3-SCD" href="#3-SCD"><span class="octicon octicon-link"></span></a>3. SCD</h2
+         <h2 id="3-SCD"><a class="anchor" name="3-SCD" href="#3-SCD"><span class="octicon octicon-link"></span></a>3 SCD</h2>
          </div>
          <h4 id="31-dataset-license"><a class="anchor" name="31-dataset-license" href="#31-dataset-license"><span class="octicon octicon-link"></span></a>3.1 Dataset license:</h4>
          <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt=""></a><br>CC BY-NC-SA 4.0</p>
@@ -32,7 +32,7 @@
          <img  src="images/scd_carton.jpg">
          <h4 id="33-Annotations"><a class="anchor" name="33-Annotations" href="#33-Annotations"><span class="octicon octicon-link"></span></a>3.3 Annotations:</h4>
          <img  src="images/annotation.jpg">
-         <h4 id="34-overview-infomation-of-SCD"><a class="anchor" name="34-overview-infomation-of-SCD" href="#34-overview-infomation-of-SCD"><span class="octicon octicon-link"></span></a>3.4 Overview infomation of SCD dataset</h6>
+         <h4 id="34-overview-infomation-of-SCD"><a class="anchor" name="34-overview-infomation-of-SCD" href="#34-overview-infomation-of-SCD"><span class="octicon octicon-link"></span></a>3.4 Overview infomation of SCD dataset</h4>
          <div align="center">
             <table>
                <thead>
@@ -71,7 +71,7 @@
          </div>
         <h4 id="35-Data-classification-and-download-link"><a class="anchor" name="35-Data-classification-and-download-link" href="#35-Data-classification-and-download-link"><span class="octicon octicon-link"></span></a>3.5 Data classification and download link:</h4>
             <p>OSCD:</p>
-            <p>(1) a href="https://pan.baidu.com/s/1p2KOYFhLWFfbmMBLpxbVMA"><strong>OSCD =&gt; "Images and COCO-style labels"</strong></a>
+            <p>(1) <a href="https://pan.baidu.com/s/1p2KOYFhLWFfbmMBLpxbVMA"><strong>OSCD =&gt; "Images and COCO-style labels"</strong></a>
                (password: 0000)
             </p>
             <p>LSCD:</p>
