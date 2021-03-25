@@ -89,31 +89,102 @@
             </p>
             <p>*<strong>Notice</strong>: You should download the dataset using Baidu Drive.</p>
          <h4 id="36-Dataset-Statistics"><a class="anchor" name="32-Image-examples" href="#36-Dataset-Statistics"><span class="octicon octicon-link"></span></a>3.6 Dataset Statistics</h4>
-         <img  src="images/fourclass_images.png">
-         <img  src="images/fourclass_instances.png">
+         <img  src="images/fourclass_images.png" height="200" width="300" />
+         <img  src="images/fourclass_instances.png" height="200" width="300" />
          <img  src="images/Statistics.png">
          <p>The first line represents the statistical distribution of LSCD while the second line represents the statistical distribution of OSCD. The chart calculates the width, height, aspect ratio, pixel area and the number of objects in each image from left to right. Noting that the width, height and area of instance are all normalized by the width and height of corresponding image. Log function is adopted to normalize aspect ratio.<p/>
          <h5 id="4-Proposed-baseline-method-on-SCD"><a class="anchor" name="4-proposed-baseline-method-on-SCD" href="#4-Proposed-baseline-method-on-SCD"><span class="octicon octicon-link"></span></a>4. Proposed baseline method on SCD</h5>
-         <h5 id="41-RetinaNet-with-OPCL-and-BGS"><a class="anchor" name="41-RetinaNet-with-OPCL-and-BGS" href="#41-RetinaNet-with-OPCL-and-BGS"><span class="octicon octicon-link"></span></a>4.1 RetinaNet with OPCL and BGS <em>Syn+Render</em> method</h5>
+         <h5 id="41-RetinaNet-with-OPCL-and-BGS"><a class="anchor" name="41-RetinaNet-with-OPCL-and-BGS" href="#41-RetinaNet-with-OPCL-and-BGS"><span class="octicon octicon-link"></span></a>4.1 RetinaNet with OPCL and BGS</h5>
          <img  src="images/Net.png">
-         <h4 id="42-baseline"><a class="anchor" name="42-baseline" href="#42-baseline"><span class="octicon octicon-link"></span></a>4.2 baseline</h4>
-      
-      
-         <div align="center">
-            <img style="width:700px" src="imgs/result.png">
+         <h5 id="42-baseline"><a class="anchor" name="42-baseline" href="#42-baseline"><span class="octicon octicon-link"></span></a>4.2 baseline</h5>
+                  <div align="center">
+            <table>
+               <thead>
+                  <tr>
+                     <th><em>Dataset</em></th>
+                     <th align="right"><em>Labels</em></th>
+                     <th align="right"><em>Model(training/test set)</em></th>
+                     <th align="right"><em>mAP</em></th>
+                     <th align="right"><em>AP50</em></th>
+                     <th align="right"><em>AP75</em></th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>OSCD</td>
+                     <td>1</td>
+                     <td>RetinaNet</td>
+                     <td>72.1</td>
+                     <td>90.8</td>
+                     <td>80.5</td>
+                  </tr>
+                   <tr>
+                     <td>OSCD</td>
+                     <td>1</td>
+                     <td>RetinaNet+</td>
+                     <td>76.6</td>
+                     <td>91.8</td>
+                     <td>83.6</td>
+                  </tr>
+                  <tr>
+                     <td>OSCD</td>
+                     <td>1</td>
+                     <td>FCOS</td>
+                     <td>72.8</td>
+                     <td>91.1</td>
+                     <td>80.6</td>
+                  </tr>
+                  <tr>
+                     <td>OSCD</td>
+                     <td>1</td>
+                     <td>Faster R-CNN</td>
+                     <td>69.0</td>
+                     <td>90.1</td>
+                     <td>77.8</td>
+                  </tr>
+                  <tr>
+                     <td>LSCD</td>
+                     <td>1</td>
+                     <td>RetinaNet</td>
+                     <td>79.8</td>
+                     <td>95.2</td>
+                     <td>87.9</td>
+                  </tr>
+                   <tr>
+                     <td>LSCD</td>
+                     <td>1</td>
+                     <td>RetinaNet+</td>
+                     <td>84.7</td>
+                     <td>95.8</td>
+                     <td>89.8</td>
+                  </tr>
+                  <tr>
+                     <td>LSCD</td>
+                     <td>1</td>
+                     <td>FCOS</td>
+                     <td>76.5</td>
+                     <td>93.7</td>
+                     <td>84.3</td>
+                  </tr>
+                  <tr>
+                     <td>LSCD</td>
+                     <td>1</td>
+                     <td>Faster R-CNN</td>
+                     <td>77.5</td>
+                     <td>94.5</td>
+                     <td>86.3</td>
+                  </tr>
+               </tbody>
+            </table>
          </div>
          <h2 id="5-leaderboard"><a class="anchor" name="5-leaderboard" href="#5-leaderboard"><span class="octicon octicon-link"></span></a>5. Leaderboard</h2>
          <div style="text-align: justify">
-            <p><a href="https://github.com/RPC-Dataset/RPC-Leaderboard"><strong>RPC-Leaderboard</strong></a></p>
-            <p>If you have been successful in creating a model based on the training set and it performs well on the validation set, we encourage you to run your model on the test set. The  <a href="https://github.com/DIYer22/retail_product_checkout_tools"><code>rpctool</code></a> (in the next section in this project page) will contribute to return the corresponding results of the evaluation metrics. You can submit your results on the RPC leaderboard by creating a new issue. Your results will be ranked in the leaderboard and to benchmark your approach against that of other machine learners. We are looking forward to your submission. Please click <a href="https://github.com/RPC-Dataset/RPC-Leaderboard/issues">here</a> to submit.</p>
-         </div>
-         <h2 id="6-rpc-tool"><a class="anchor" name="6-rpc-tool" href="#6-rpc-tool"><span class="octicon octicon-link"></span></a>6. RPC-tool</h2>
-         <div style="text-align: justify">
-            <p><a href="https://github.com/DIYer22/retail_product_checkout_tools"><code>rpctool</code></a>: A Python package for evaluating your methods on the RPC dataset. It can return several evaluation metrics (listed in the aforementioned table in Sec. 4.2). More information can be found in <a href="https://github.com/DIYer22/retail_product_checkout_tools"><code>rpctool</code></a>.</p>
+            <p><a href="https://github.com/yancie-yjr/scd.github.io/tree/main/SCD-Leaderboard"><strong>SCD-Leaderboard</strong></a></p>
+            <p>If you have been successful in creating a model based on the training set and it performs well on the validation set, we encourage you to run your model on the test set. You can submit your results on the RPC leaderboard by creating a new issue. Your results will be ranked in the leaderboard and to benchmark your approach against that of other machine learners. We are looking forward to your submission. Please click <a href="https://github.com/yancie-yjr/scd.github.io/issues">here</a> to submit.</p>
          </div>
          <h2 id="7-attn"><a class="anchor" name="7-attn" href="#7-attn"><span class="octicon octicon-link"></span></a>7. ATTN</h2>
          <div style="text-align: justify">
-            <p>This dataset and code packages are free for academic usage. You can run them at your own risk. For other purposes, please contact the corresponding author Dr. Xiu-Shen Wei (weixs.gm [at] gmail.com).</p>
+            <p>This dataset are free for academic usage. You can run them at your own risk. For other purposes, please contact the corresponding author Dr. Jinrong Yang (yangjinrong@hust.edu.cn).</p>
          </div>
          <!-- Global site tag (gtag.js) - Google Analytics -->
          <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-133191784-1"></script>
