@@ -89,9 +89,11 @@
             </p>
             <p>*<strong>Notice</strong>: You should download the dataset using Baidu Drive.</p>
          <h4 id="36-Dataset-Statistics"><a class="anchor" name="32-Image-examples" href="#36-Dataset-Statistics"><span class="octicon octicon-link"></span></a>3.6 Dataset Statistics</h4>
-         <img  src="images/fourclass_images.png" height="200" width="300" />
-         <img  src="images/fourclass_instances.png" height="200" width="300" />
+         <div align="center">
+         <img  src="images/fourclass_images.png" height="200" width="350" />
+         <img  src="images/fourclass_instances.png" height="200" width="350" />
          <img  src="images/Statistics.png">
+         </div>
          <p>The first line represents the statistical distribution of LSCD while the second line represents the statistical distribution of OSCD. The chart calculates the width, height, aspect ratio, pixel area and the number of objects in each image from left to right. Noting that the width, height and area of instance are all normalized by the width and height of corresponding image. Log function is adopted to normalize aspect ratio.<p/>
          <h5 id="4-Proposed-baseline-method-on-SCD"><a class="anchor" name="4-proposed-baseline-method-on-SCD" href="#4-Proposed-baseline-method-on-SCD"><span class="octicon octicon-link"></span></a>4. Proposed baseline method on SCD</h5>
          <h5 id="41-RetinaNet-with-OPCL-and-BGS"><a class="anchor" name="41-RetinaNet-with-OPCL-and-BGS" href="#41-RetinaNet-with-OPCL-and-BGS"><span class="octicon octicon-link"></span></a>4.1 RetinaNet with OPCL and BGS</h5>
@@ -174,6 +176,102 @@
                      <td>94.5</td>
                      <td>86.3</td>
                   </tr>
+                  <tr>
+                     <td>LSCD</td>
+                     <td>4</td>
+                     <td>RetinaNet</td>
+                     <td>65.7</td>
+                     <td>80.4</td>
+                     <td>73.0</td>
+                  </tr>
+                   <tr>
+                     <td>LSCD</td>
+                     <td>4</td>
+                     <td>RetinaNet+</td>
+                     <td>69.9</td>
+                     <td>80.0</td>
+                     <td>74.9</td>
+                  </tr>
+                  <tr>
+                     <td>LSCD</td>
+                     <td>4</td>
+                     <td>FCOS</td>
+                     <td>68.1</td>
+                     <td>81.2</td>
+                     <td>74.8</td>
+                  </tr>
+                  <tr>
+                     <td>LSCD</td>
+                     <td>4</td>
+                     <td>Faster R-CNN</td>
+                     <td>61.2</td>
+                     <td>79.5</td>
+                     <td>70.1</td>
+                  </tr>
+                  <tr>
+                     <td>LSCD+OSCD</td>
+                     <td>1</td>
+                     <td>RetinaNet</td>
+                     <td>82.0</td>
+                     <td>95.9</td>
+                     <td>89.8</td>
+                  </tr>
+                   <tr>
+                     <td>LSCD+OSCD</td>
+                     <td>1</td>
+                     <td>RetinaNet+</td>
+                     <td>86.1</td>
+                     <td>96.3</td>
+                     <td>91.2</td>
+                  </tr>
+                  <tr>
+                     <td>LSCD+OSCD</td>
+                     <td>1</td>
+                     <td>FCOS</td>
+                     <td>83.8</td>
+                     <td>96.2</td>
+                     <td>90.4</td>
+                  </tr>
+                  <tr>
+                     <td>LSCD+OSCD</td>
+                     <td>1</td>
+                     <td>Faster R-CNN</td>
+                     <td>80.6</td>
+                     <td>95.7</td>
+                     <td>89.2</td>
+                  </tr>
+                  <tr>
+                     <td>LSCD+OSCD</td>
+                     <td>4</td>
+                     <td>RetinaNet</td>
+                     <td>67.4</td>
+                     <td>80.8</td>
+                     <td>74.1</td>
+                  </tr>
+                   <tr>
+                     <td>LSCD+OSCD</td>
+                     <td>4</td>
+                     <td>RetinaNet+</td>
+                     <td>71.5</td>
+                     <td>80.9</td>
+                     <td>76.4</td>
+                  </tr>
+                  <tr>
+                     <td>LSCD+OSCD</td>
+                     <td>4</td>
+                     <td>FCOS</td>
+                     <td>71.1</td>
+                     <td>82.0</td>
+                     <td>76.8</td>
+                  </tr>
+                  <tr>
+                     <td>LSCD+OSCD</td>
+                     <td>4</td>
+                     <td>Faster R-CNN</td>
+                     <td>64.7</td>
+                     <td>81.2</td>
+                     <td>73.7</td>
+                  </tr>
                </tbody>
             </table>
          </div>
@@ -184,6 +282,6 @@
          </div>
          <h2 id="6-attn"><a class="anchor" name="6-attn" href="#6-attn"><span class="octicon octicon-link"></span></a>6. ATTN</h2>
          <div style="text-align: justify">
-            <p>This dataset are free for academic usage. You can run them at your own risk. For other purposes, please contact the corresponding author Dr. Jinrong Yang (yangjinrong@hust.edu.cn).</p>
+            <p>The data set is free for academic use but please do not use it for commercial purposes. You can run them at your own risk. For other purposes, please contact the corresponding author Dr. Jinrong Yang (yangjinrong@hust.edu.cn).</p>
    </body>
 </html>
