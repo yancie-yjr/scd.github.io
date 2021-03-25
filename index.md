@@ -20,7 +20,7 @@
          <h2 id="2-paper"><a class="anchor" name="2-paper" href="#2-paper"><span class="octicon octicon-link"></span></a>2. Paper</h2>
          <div align="center">
             <a href="https://https://arxiv.org/abs/2102.12808">
-            <img style="width:200px" src="imgs/paper_small.jpg">
+            <img style="width:200px" src="images/SCD A Stacked Carton Dataset for Detection and Segmentation_页面_01.jpg">
             </a>   
             <p><a href="https://arxiv.org/abs/2102.12808"><strong>Paper on arXiv =&gt; "SCD: A Stacked Carton Dataset for Detection and Segmentation"</strong></a></p>
          </div>
