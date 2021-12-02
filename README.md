@@ -287,6 +287,6 @@
          </div>
          <h2 id="6-attn"><a class="anchor" name="6-attn" href="#6-attn"><span class="octicon octicon-link"></span></a>6. ATTN</h2>
          <div style="text-align: justify">
-            <p>The data set is free for academic use but please do not use it for commercial purposes. You can run them at your own risk. For other purposes, please contact the corresponding author Wang pan or Jinrong Yang (panwang725@hust.edu.cn, yangjinrong@hust.edu.cn).</p>
+            <p>The data set is free for academic use but please do not use it for commercial purposes. You can run them at your own risk. For other purposes, please contact the corresponding author Pan Wang or Jinrong Yang (panwang725@hust.edu.cn, yangjinrong@hust.edu.cn).</p>
    </body>
 </html>
