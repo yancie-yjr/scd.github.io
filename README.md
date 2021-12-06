@@ -86,7 +86,7 @@
             <p>  (3) <a href="https://pan.baidu.com/s/1WV_5yxIiPWhs6L2gszzekg"><strong>LSCD =&gt; "Images and COCO-style labels(only containing carton)"</strong></a>
                (password: XXXX)
             </p>
-            <p>*<strong>Notice</strong>: You should download the dataset using Baidu Drive. You can email us to request data and clarify your purpose, we will give you the password within 3 days.(yangjinrong@hust.edu.cn)</p>
+            <p>*<strong>Notice</strong>: You should download the dataset using Baidu Drive. You can email us to request data and clarify your purpose, we will give you the password within 3 days.(panwang725@hust.edu.cnyangjinrong@hust.edu.cn)</p>
          <h4 id="36-Dataset-Statistics"><a class="anchor" name="32-Image-examples" href="#36-Dataset-Statistics"><span class="octicon octicon-link"></span></a>3.6 Dataset statistics</h4>
          <div align="center">
          <img  src="images/fourclass_images.png" height="250" width="450" />
