@@ -73,7 +73,7 @@
          </div>
         <h4 id="35-Data-classification-and-download-link"><a class="anchor" name="35-Data-classification-and-download-link" href="#35-Data-classification-and-download-link"><span class="octicon octicon-link"></span></a>3.5 Data classification and download link</h4>
             <p>OSCD:</p>
-            <p>  (1) <a href="https://pan.baidu.com/s/1p2KOYFhLWFfbmMBLpxbVMA"><strong>OSCD =&gt; "Images and COCO-style labels"</strong></a>
+            <p>  (1) <a href="https://pan.baidu.com/s/13KejNaJJW_CcHM_IQMjy5Q"><strong>OSCD =&gt; "Images and COCO-style labels"</strong></a>
                (password: XXXX)
             </p>
             <p>LSCD:</p>
