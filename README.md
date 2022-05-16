@@ -74,19 +74,22 @@
         <h4 id="35-Data-classification-and-download-link"><a class="anchor" name="35-Data-classification-and-download-link" href="#35-Data-classification-and-download-link"><span class="octicon octicon-link"></span></a>3.5 Data classification and download link</h4>
             <p>OSCD:</p>
             <p>  (1) <a href="https://pan.baidu.com/s/1LwxLk-jeFIGHjRtw3RnfgQ)**"><strong>OSCD =&gt; "Images and COCO-style labels"</strong></a>
-               (password: XXXX)
+               (password: mhhq)
+               <p>Google Drive link: https://drive.google.com/file/d/1YeZ4mg_qZ4dBvKKfgGF8RQcyOMNoMp37/view?usp=sharing </p>
             </p>
             <p>LSCD:</p>
             <p>  (1) <a href="https://pan.baidu.com/s/1dmk6mFPEKckkiaNg9qdN3g"><strong>LSCD =&gt; "Images and LabelMe-style labels"</strong></a>
                (password: XXXX)
             </p>
             <p>  (2) <a href="https://pan.baidu.com/s/1WuS0cVUVqCQYNCL7JvAf-g)**"><strong>LSCD =&gt; "Images and COCO-style labels(containing Carton-inner-all, Carton-inner-occlusion, Carton-outer-all and Carton-outer-occlusion)"</strong></a>
-               (password: XXXX)
+               (password: cawg)
+               <p>Google Drive link: https://drive.google.com/file/d/1nJKS5YwsfxciRXg9ZooGcgdoXuKESMaj/view?usp=sharing </p>
             </p>
             <p>  (3) <a href="https://pan.baidu.com/s/10Hq81p1zrk7tSHeXedAm-Q)**"><strong>LSCD =&gt; "Images and COCO-style labels(only containing carton)"</strong></a>
-               (password: XXXX)
+               (password: c3n9)
+               <p>Google Drive link: https://drive.google.com/file/d/1JRk_YjPpGcTCB-bvlJ37KsI5Sx1tfbUc/view?usp=sharing </p>
             </p>
-            <p>*<strong>Notice</strong>: You should download the dataset using Baidu Drive. You can email us to request data and clarify your purpose, we will give you the password within 3 days.(panwang725@hust.edu.cn, yangjinrong@hust.edu.cn)</p>
+            <p>*<strong>Notice</strong>: You should download the dataset using Baidu Drive, the password has been released, now we also provide Google Drive link! You can email us if any question, we will replay you within 3 days.(panwang725@hust.edu.cn, yangjinrong@hust.edu.cn)</p>
          <h4 id="36-Dataset-Statistics"><a class="anchor" name="32-Image-examples" href="#36-Dataset-Statistics"><span class="octicon octicon-link"></span></a>3.6 Dataset statistics</h4>
          <div align="center">
          <img  src="images/fourclass_images.png" height="250" width="450" />
