@@ -78,11 +78,11 @@
                <p>Google Drive link: https://drive.google.com/file/d/1YeZ4mg_qZ4dBvKKfgGF8RQcyOMNoMp37/view?usp=sharing </p>
             </p>
             <p>LSCD:</p>
-            <p>  (1) <a href="[https://pan.baidu.com/s/1WuS0cVUVqCQYNCL7JvAf-g](https://pan.baidu.com/s/18BaUM3SI8q9JSwE9NBGzXw))**"><strong>LSCD =&gt; "Images and COCO-style labels(containing Carton-inner-all, Carton-inner-occlusion, Carton-outer-all and Carton-outer-occlusion)"</strong></a>
+            <p>  (1) <a href="https://pan.baidu.com/s/1WuS0cVUVqCQYNCL7JvAf-g)**"><strong>LSCD =&gt; "Images and COCO-style labels(containing Carton-inner-all, Carton-inner-occlusion, Carton-outer-all and Carton-outer-occlusion)"</strong></a>
                (password: uqr5)
                <p>Google Drive link: https://drive.google.com/file/d/1nJKS5YwsfxciRXg9ZooGcgdoXuKESMaj/view?usp=sharing </p>
             </p>
-            <p>  (2) <a href="[https://pan.baidu.com/s/10Hq81p1zrk7tSHeXedAm-Q](https://pan.baidu.com/s/1v6EBudDAWimywoWPGw2--A))**"><strong>LSCD =&gt; "Images and COCO-style labels(only containing carton)"</strong></a>
+            <p>  (2) <a href="https://pan.baidu.com/s/10Hq81p1zrk7tSHeXedAm-Q)**"><strong>LSCD =&gt; "Images and COCO-style labels(only containing carton)"</strong></a>
                (password: 56b5)
                <p>Google Drive link: https://drive.google.com/file/d/1JRk_YjPpGcTCB-bvlJ37KsI5Sx1tfbUc/view?usp=sharing </p>
             </p>
