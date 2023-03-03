@@ -73,17 +73,17 @@
          </div>
         <h4 id="35-Data-classification-and-download-link"><a class="anchor" name="35-Data-classification-and-download-link" href="#35-Data-classification-and-download-link"><span class="octicon octicon-link"></span></a>3.5 Data classification and download link</h4>
             <p>OSCD:</p>
-            <p>  (1) <a href="https://pan.baidu.com/s/1JhvuYlIxy5OhXOWexkuyKQ)**"><strong>OSCD =&gt; "Images and COCO-style labels"</strong></a>
-               (password: d3m0)
+            <p>  (1) <a href="https://pan.baidu.com/s/1nLtGAMzEl8bWoeeFk3U9eg"><strong>OSCD =&gt; "Images and COCO-style labels"</strong></a>
+               (password: d8sj)
                <p>Google Drive link: https://drive.google.com/file/d/1YeZ4mg_qZ4dBvKKfgGF8RQcyOMNoMp37/view?usp=sharing </p>
             </p>
             <p>LSCD:</p>
-            <p>  (1) <a href="https://pan.baidu.com/s/1WuS0cVUVqCQYNCL7JvAf-g)**"><strong>LSCD =&gt; "Images and COCO-style labels(containing Carton-inner-all, Carton-inner-occlusion, Carton-outer-all and Carton-outer-occlusion)"</strong></a>
-               (password: uqr5)
+            <p>  (1) <a href="https://pan.baidu.com/s/1wtEeKaLe2HIaYB-czOT92w"><strong>LSCD =&gt; "Images and COCO-style labels(containing Carton-inner-all, Carton-inner-occlusion, Carton-outer-all and Carton-outer-occlusion)"</strong></a>
+               (password: 7ebi)
                <p>Google Drive link: https://drive.google.com/file/d/1nJKS5YwsfxciRXg9ZooGcgdoXuKESMaj/view?usp=sharing </p>
             </p>
-            <p>  (2) <a href="https://pan.baidu.com/s/10Hq81p1zrk7tSHeXedAm-Q)**"><strong>LSCD =&gt; "Images and COCO-style labels(only containing carton)"</strong></a>
-               (password: 56b5)
+            <p>  (2) <a href="https://pan.baidu.com/s/1Es-vVKlJ1wtfSI0ioly3wA"><strong>LSCD =&gt; "Images and COCO-style labels(only containing carton)"</strong></a>
+               (password: vrqn)
                <p>Google Drive link: https://drive.google.com/file/d/1JRk_YjPpGcTCB-bvlJ37KsI5Sx1tfbUc/view?usp=sharing </p>
             </p>
             <p>*<strong>Notice</strong>: You should download the dataset using Baidu Drive, the password has been released, now we also provide Google Drive link! You can email us if any question, we will replay you within 3 days.(panwang725@hust.edu.cn, yangjinrong@hust.edu.cn)</p>
